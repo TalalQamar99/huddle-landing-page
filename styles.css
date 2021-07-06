@@ -1,0 +1,17 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    height: 100vh;
+    background-color:#674bb1;
+    margin: 0;
+    padding: 0;
+}
+.main-div{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background: url("images/bg-desktop.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
