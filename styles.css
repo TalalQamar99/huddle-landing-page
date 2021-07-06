@@ -15,3 +15,32 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
 }
+.div-left{
+    width:60%;
+    height:100%;
+}
+.div-right{
+    width:40%;
+    height:100%;
+}
+#logo{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+#mockup{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+h1{
+   font-family: "Poppins";
+   position: absolute;
+   margin-top: 120px;
+   color: white;
+   font-weight: 700;
+}
+p{
+    font-family: "Open Sans";
+    color: white;
+    margin-top: 225px;
+    font-weight: 400;
+}
