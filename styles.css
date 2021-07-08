@@ -22,14 +22,16 @@ body{
 .div-right{
     width:40%;
     height:100%;
+    position: relative;
 }
 #logo{
     margin-top: 40px;
     margin-left: 30px;
 }
 #mockup{
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 30px;
+    scale: 0.9;
 }
 h1{
    font-family: "Poppins";
@@ -43,4 +45,55 @@ p{
     color: white;
     margin-top: 225px;
     font-weight: 400;
+    margin-bottom: 40px;
 }
+.fa {
+padding: 15px;
+  font-size: 20px;
+  width: 12px;
+  height:12px; 
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius:50%;
+  border-style:solid;
+  border-width: 1px;
+  }
+.fa:hover {
+      color: hsl(300, 69%, 71%);
+  }
+  
+.fa-facebook {
+    color: white;
+  }
+  
+.fa-twitter {
+    color: white;
+  }
+  
+  .fa-instagram {
+    color: white;
+  }
+  .social-media{
+      position: absolute;
+      right: 30px;
+      bottom: 30px;
+  }
+  .learn-more{
+      /* padding: 15px; */
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      margin-top: 80px;
+      border-radius: 30px;
+      text-decoration: none;
+      color:hsl(300, 69%, 71%);
+      background-color:white ;
+      font-family: "Poppins";
+      box-shadow: 3px 3px 3px rgb(56, 55, 55);
+  }
+  .learn-more:hover{
+    color:white;
+    background-color:hsl(300, 69%, 71%) ;
+  }
